@@ -29,23 +29,29 @@ A simple internal triggerbot for Counter Strike 2, written in C++.
 
 ## Structure
 
-📁 Project Root
-├── dllmain.cpp # Core logic and entry point
-├── include.h # Imports, headers, WinAPI
-├── offsets.h # Reversed game offsets (cs2 dumper)
-├── minhook/ # (Included but unused)
+📁 Project Root  
+├── dllmain.cpp  # Core logic and entry point  
+├── include.h   # Imports, headers, WinAPI  
+├── offsets.h   # Reversed game offsets (cs2 dumper)  
+├── minhook/    # (Included but unused)  
 
 ---
 
 ## Build Instructions
 
-- Build as DLL using Visual Studio (x64, Release)
-- Inject with any DLL injector (Xenos, GH Injector)
-- Press `END` to stop the trigger thread
+- Build as DLL using Visual Studio (x64, Release)  
+- Inject with any DLL injector (Xenos, GH Injector)  
+- Press `END` to stop the trigger thread  
+
+---
+
+## Last Update
+
+- **offsets.h** was updated on **2025-06-11** — offsets are current and tested.
 
 ---
 
 ## License
 
-This project is released under the MIT License.
+This project is released under the MIT License.  
 For educational and reverse engineering practice only.

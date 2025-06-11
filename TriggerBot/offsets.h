@@ -1,9 +1,9 @@
 #pragma once
 
+#include <cstdint>
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace offsets {
+namespace offsets {
         // Module: client.dll
         namespace client_dll {
             constexpr std::ptrdiff_t dwCSGOInput = 0x1A75250;
